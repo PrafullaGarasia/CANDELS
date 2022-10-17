@@ -157,3 +157,14 @@ services.AddControllersWithViews();
             services.AddDbContext<MvcCandelContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("MvcCandelContext")));
 8. Add Scaffold page..
+9. Create Migration file.
+10. tested program it's not working.
+-------------------Part 5 Working with database------------------
+1. examine the database
+2. create a new class named SeedData in Models Folder
+3. replace context of Program.cs
+4. could not able to see seeddata.
+-------------------Part 6 Controller methods and views
+1. completed part 6
+2. add About us page with company details, product images..
+3. update css.
