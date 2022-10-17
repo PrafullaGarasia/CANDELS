@@ -8,6 +8,12 @@ a.navbar-brand {
 }
 
 /* Provide sufficient contrast against white background */
+body {
+    background-color: #e0c5fa;
+}
+img{
+    width:300px;
+}
 a {
     color: #99ccff;
 }
