@@ -54,7 +54,7 @@ namespace MvcCandel.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Type,Color,MadeFrom,Fragrance,ExpiryDate,Price")] Candel candel)
+        public async Task<IActionResult> Create([Bind("Id,Type,Color,MadeFrom,Fragrance,ExpiryDate,Price,Rating")] Candel candel)
         {
             if (ModelState.IsValid)
             {

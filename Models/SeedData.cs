@@ -30,7 +30,8 @@ namespace MvcCandel.Models
                         MadeFrom = "Bee Wax",
                         Fragrance = "Yes",
                         ExpiryDate = DateTime.Parse("2022-2-12"),
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Rating = "R"
                     },
 
                     new Candel
@@ -40,7 +41,8 @@ namespace MvcCandel.Models
                         MadeFrom = "Vegetable Wax",
                         Fragrance = "Yes",
                         ExpiryDate = DateTime.Parse("2022-5-13"),
-                        Price = 8.99M
+                        Price = 8.99M,
+                        Rating = "R"
                     },
 
                     new Candel
@@ -50,7 +52,8 @@ namespace MvcCandel.Models
                         MadeFrom = "Soy",
                         Fragrance = "No",
                         ExpiryDate = DateTime.Parse("2022-6-14"),
-                        Price = 9.99M
+                        Price = 9.99M,
+                        Rating = "R"
                     },
 
                     new Candel
@@ -60,7 +63,8 @@ namespace MvcCandel.Models
                         MadeFrom = "Plastic",
                         Fragrance = "No",
                         ExpiryDate = DateTime.Parse("2022-7-16"),
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Rating = "R"
                     }
                 );
                 context.SaveChanges();
