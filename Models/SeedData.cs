@@ -31,7 +31,7 @@ namespace MvcCandel.Models
                         Fragrance = "Yes",
                         ExpiryDate = DateTime.Parse("2022-2-12"),
                         Price = 7.99M,
-                        Rating = "R"
+                        Rating = "4"
                     },
 
                     new Candel
@@ -42,7 +42,7 @@ namespace MvcCandel.Models
                         Fragrance = "Yes",
                         ExpiryDate = DateTime.Parse("2022-5-13"),
                         Price = 8.99M,
-                        Rating = "R"
+                        Rating = "3"
                     },
 
                     new Candel
@@ -53,8 +53,74 @@ namespace MvcCandel.Models
                         Fragrance = "No",
                         ExpiryDate = DateTime.Parse("2022-6-14"),
                         Price = 9.99M,
-                        Rating = "R"
+                        Rating = "5"
                     },
+
+                    new Candel
+                    {
+                        Type = "Natural",
+                        Color = "Blue",
+                        MadeFrom = "Wax",
+                        Fragrance = "No",
+                        ExpiryDate = DateTime.Parse("2022-6-12"),
+                        Price = 5.99M,
+                        Rating = "5"
+                    },
+
+                    new Candel
+                    {
+                        Type = "Natural",
+                        Color = "White",
+                        MadeFrom = "Bee Wax",
+                        Fragrance = "Yes",
+                        ExpiryDate = DateTime.Parse("2022-6-15"),
+                        Price = 7.99M,
+                        Rating = "4"
+                    },
+
+                    new Candel
+                    {
+                        Type = "Artificial",
+                        Color = "White",
+                        MadeFrom = "Plastic",
+                        Fragrance = "No",
+                        ExpiryDate = DateTime.Parse("2022-6-14"),
+                        Price = 9.99M,
+                        Rating = "5"
+                    },
+
+                     new Candel
+                     {
+                         Type = "Artificial",
+                         Color = "Black",
+                         MadeFrom = "Plastic",
+                         Fragrance = "No",
+                         ExpiryDate = DateTime.Parse("2022-6-13"),
+                         Price = 12.99M,
+                         Rating = "3"
+                     },
+
+                      new Candel
+                      {
+                          Type = "Artificial",
+                          Color = "Mix Color",
+                          MadeFrom = "Plastic",
+                          Fragrance = "No",
+                          ExpiryDate = DateTime.Parse("2022-6-12"),
+                          Price = 11.99M,
+                          Rating = "5"
+                      },
+
+                       new Candel
+                       {
+                           Type = "Artificial",
+                           Color = "Blue",
+                           MadeFrom = "Plastic",
+                           Fragrance = "No",
+                           ExpiryDate = DateTime.Parse("2022-6-11"),
+                           Price = 22.99M,
+                           Rating = "2"
+                       },
 
                     new Candel
                     {
@@ -64,7 +130,7 @@ namespace MvcCandel.Models
                         Fragrance = "No",
                         ExpiryDate = DateTime.Parse("2022-7-16"),
                         Price = 3.99M,
-                        Rating = "R"
+                        Rating = "4"
                     }
                 );
                 context.SaveChanges();
